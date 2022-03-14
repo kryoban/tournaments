@@ -13,6 +13,7 @@
       *matHeaderCellDef="let element"
       class="header-cell pl-10"
       [ngClass]="column.columnType === 'CURRENCY' ? ['text-center'] : ''"
+      [ngStyle]="{ width: (column.width ?? 10) + 'vw' }"
     >
       {{ column.columnTitle }}
     </th>

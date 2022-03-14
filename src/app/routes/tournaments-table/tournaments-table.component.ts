@@ -43,47 +43,47 @@ export class TournamentsTableComponent implements OnInit {
   get totalBuyins() {
     return this.dataSource
       .filter(this.notSummary)
-      .reduce((total, dataItem) => (total += dataItem.data.buyin), 0);
+      .reduce((total, dataItem) => (total += +dataItem.data.buyin), 0);
   }
 
   get totalRebuys() {
     return this.dataSource
       .filter(this.notSummary)
-      .reduce((total, dataItem) => (total += dataItem.data.rebuy), 0);
+      .reduce((total, dataItem) => (total += +dataItem.data.rebuy), 0);
   }
 
   get totalAddons() {
     return this.dataSource
       .filter(this.notSummary)
-      .reduce((total, dataItem) => (total += dataItem.data.addon), 0);
+      .reduce((total, dataItem) => (total += +dataItem.data.addon), 0);
   }
 
   get totalPayouts() {
     return this.dataSource
       .filter(this.notSummary)
-      .reduce((total, dataItem) => (total += dataItem.data.payout), 0);
+      .reduce((total, dataItem) => (total += +dataItem.data.payout), 0);
   }
 
   get totalProfits() {
     return this.dataSource
       .filter(this.notSummary)
-      .reduce((total, dataItem) => (total += dataItem.data.profit), 0);
+      .reduce((total, dataItem) => (total += +dataItem.data.profit), 0);
   }
 
   get totalPrizes() {
     return this.dataSource
       .filter(this.notSummary)
-      .reduce((total, dataItem) => (total += dataItem.data.prize), 0);
+      .reduce((total, dataItem) => (total += +dataItem.data.prize), 0);
   }
 
   get totalBounties() {
     return this.dataSource
       .filter(this.notSummary)
-      .reduce((total, dataItem) => (total += dataItem.data.bounties), 0);
+      .reduce((total, dataItem) => (total += +dataItem.data.bounties), 0);
   }
 
   get totalSpent() {
-    return this.totalBuyins + this.totalRebuys + this.totalAddons;
+    return +this.totalBuyins + +this.totalRebuys + +this.totalAddons;
   }
 
   constructor() {}
@@ -160,46 +160,50 @@ export class TournamentsTableComponent implements OnInit {
       buyin: tableData
         .filter((d) => filterFunction(date as Date, new Date(d.date) as Date))
         .reduce(
-          (a, b) => (a += b.isDailySummary || b.isMonthlySummary ? 0 : b.buyin),
+          (a, b) =>
+            (a += b.isDailySummary || b.isMonthlySummary ? 0 : +b.buyin),
           0
         ),
       rebuy: tableData
         .filter((d) => filterFunction(date as Date, new Date(d.date) as Date))
         .reduce(
-          (a, b) => (a += b.isDailySummary || b.isMonthlySummary ? 0 : b.rebuy),
+          (a, b) =>
+            (a += b.isDailySummary || b.isMonthlySummary ? 0 : +b.rebuy),
           0
         ),
       addon: tableData
         .filter((d) => filterFunction(date as Date, new Date(d.date) as Date))
         .reduce(
-          (a, b) => (a += b.isDailySummary || b.isMonthlySummary ? 0 : b.addon),
+          (a, b) =>
+            (a += b.isDailySummary || b.isMonthlySummary ? 0 : +b.addon),
           0
         ),
       prize: tableData
         .filter((d) => filterFunction(date as Date, new Date(d.date) as Date))
         .reduce(
-          (a, b) => (a += b.isDailySummary || b.isMonthlySummary ? 0 : b.prize),
+          (a, b) =>
+            (a += b.isDailySummary || b.isMonthlySummary ? 0 : +b.prize),
           0
         ),
       bounties: tableData
         .filter((d) => filterFunction(date as Date, new Date(d.date) as Date))
         .reduce(
           (a, b) =>
-            (a += b.isDailySummary || b.isMonthlySummary ? 0 : b.bounties),
+            (a += b.isDailySummary || b.isMonthlySummary ? 0 : +b.bounties),
           0
         ),
       payout: tableData
         .filter((d) => filterFunction(date as Date, new Date(d.date) as Date))
         .reduce(
           (a, b) =>
-            (a += b.isDailySummary || b.isMonthlySummary ? 0 : b.payout),
+            (a += b.isDailySummary || b.isMonthlySummary ? 0 : +b.payout),
           0
         ),
       profit: tableData
         .filter((d) => filterFunction(date as Date, new Date(d.date) as Date))
         .reduce(
           (a, b) =>
-            (a += b.isDailySummary || b.isMonthlySummary ? 0 : b.profit),
+            (a += b.isDailySummary || b.isMonthlySummary ? 0 : +b.profit),
           0
         ),
       isDailySummary: summaryPeriod === SummaryPeriod.DAY,
@@ -208,11 +212,14 @@ export class TournamentsTableComponent implements OnInit {
   }
 
   calculatePayout(data: any) {
-    return data.prize + data.bounties;
+    return +data.prize + +data.bounties;
   }
 
   calculateProfit(data: any) {
-    return this.calculatePayout(data) - (data.buyin + data.rebuy + data.addon);
+    return (
+      this.calculatePayout(data) -
+      (+data.buyin + +data.rebuy + +data.addon)
+    ).toFixed(2);
   }
 
   private sortTableData(item1: any, item2: any) {

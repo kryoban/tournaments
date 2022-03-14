@@ -1,8 +1,12 @@
 import { ColumnType, TableColumn } from './tournaments-table.models';
 
 export const TABLE_COLUMNS: TableColumn[] = [
-  { columnTitle: 'Date', columnProp: 'date', columnType: ColumnType.DATE },
-  { columnTitle: 'Tournament', columnProp: 'tournamentName' },
+  {
+    columnTitle: 'Date',
+    columnProp: 'date',
+    columnType: ColumnType.DATE,
+  },
+  { columnTitle: 'Tournament', columnProp: 'tournamentName', width: 20 },
   {
     columnTitle: 'Buy-In',
     columnProp: 'buyin',

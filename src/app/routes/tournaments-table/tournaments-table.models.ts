@@ -3,6 +3,7 @@ export interface TableColumn {
   columnProp: string;
   columnType?: ColumnType;
   colspan?: number;
+  width?: number;
 }
 
 export enum ColumnType {
