@@ -1,0 +1,138 @@
+<table
+  *ngIf="dataSource"
+  mat-table
+  [dataSource]="dataSource"
+  class="tournament-table mat-elevation-z8 w-100 h-100"
+>
+  <ng-container
+    *ngFor="let column of tableColumns"
+    matColumnDef="{{ column.columnProp }}"
+  >
+    <th
+      mat-header-cell
+      *matHeaderCellDef="let element"
+      class="header-cell pl-10"
+      [ngClass]="column.columnType === 'CURRENCY' ? ['text-center'] : ''"
+    >
+      {{ column.columnTitle }}
+    </th>
+    <td
+      mat-cell
+      *matCellDef="let element"
+      class="pl-10"
+      [ngClass]="[
+        column.columnType === 'CURRENCY' ? 'text-center' : '',
+        element.isDailySummary ? 'is-daily-summary' : '',
+        element.isMonthlySummary ? 'is-monthly-summary' : '',
+        profitColumns.indexOf(column.columnProp) > -1 &&
+        element.data[column.columnProp] > 0
+          ? 'profit-column'
+          : element.data[column.columnProp] < 0 &&
+            (element.isDailySummary || element.isMonthlySummary)
+          ? 'negative-profit-column'
+          : '',
+        payoutColumns.indexOf(column.columnProp) > -1 &&
+        element.data[column.columnProp] > 0
+          ? 'payout-column'
+          : ''
+      ]"
+      (click)="makeEditable(element)"
+    >
+      <ng-container *ngIf="!element.editable">
+        <span
+          [ngSwitch]="column.columnType"
+          [ngStyle]="
+            element.data[column.columnProp] ? null : { opacity: '0.2' }
+          "
+        >
+          <ng-container *ngSwitchCase="'DATE'">{{
+            element.data[column.columnProp] | date: "dd MMM YY"
+          }}</ng-container>
+          <ng-container *ngSwitchCase="'CURRENCY'">{{
+            element.data[column.columnProp] | currency
+          }}</ng-container>
+          <div *ngSwitchDefault>{{ element.data[column.columnProp] }}</div>
+        </span>
+      </ng-container>
+
+      <ng-container *ngIf="element.editable">
+        <ng-container [ngSwitch]="column.columnProp">
+          <ng-container *ngSwitchCase="'date'">{{
+            element.data[column.columnProp] | date: "dd MMM YY"
+          }}</ng-container>
+          <ng-container *ngSwitchCase="'payout'">{{
+            element.data[column.columnProp]
+          }}</ng-container>
+          <ng-container *ngSwitchCase="'profit'">{{
+            element.data[column.columnProp]
+          }}</ng-container>
+          <ng-container *ngSwitchDefault>
+            <input
+              class="row-input"
+              [type]="column.columnType === 'CURRENCY' ? 'number' : 'text'"
+              [value]="element.data[column.columnProp]"
+              [ngClass]="column.columnType === 'CURRENCY' ? 'w-50' : ''"
+            />
+          </ng-container>
+        </ng-container>
+      </ng-container>
+    </td>
+    <td
+      mat-footer-cell
+      *matFooterCellDef
+      class="footer-cell pl-10"
+      [ngClass]="[
+        column.columnType === 'CURRENCY' ? 'text-center' : '',
+        column.columnProp === 'profit' && totalProfits > 0
+          ? 'profit-column'
+          : totalProfits < 0
+          ? 'negative-profit-column'
+          : ''
+      ]"
+    >
+      <div [ngSwitch]="column.columnProp">
+        <div *ngSwitchCase="'rebuy'">{{ totalSpent | currency }}</div>
+        <div *ngSwitchCase="'payout'">{{ totalPayouts | currency }}</div>
+        <span *ngSwitchCase="'profit'">{{ totalProfits | currency }}</span>
+        <div *ngSwitchDefault></div>
+      </div>
+    </td>
+  </ng-container>
+
+  <ng-container
+    *ngFor="let column of totalColumns"
+    matColumnDef="{{ column.columnProp }}"
+  >
+    <td
+      mat-footer-cell
+      *matFooterCellDef
+      class="footer-cell footer-cell-totals pl-10 text-center"
+      [attr.colspan]="column.colspan"
+    >
+      <div *ngIf="column.columnTitle; else elseBlock">
+        {{ column.columnTitle }}
+      </div>
+      <ng-template #elseBlock>
+        <div [ngSwitch]="column.columnProp">
+          <div *ngSwitchCase="'totalBuyins'">{{ totalBuyins | currency }}</div>
+          <div *ngSwitchCase="'totalRebuys'">{{ totalRebuys | currency }}</div>
+          <div *ngSwitchCase="'totalAddons'">{{ totalAddons | currency }}</div>
+          <div *ngSwitchCase="'totalPrizes'">{{ totalPrizes | currency }}</div>
+          <div *ngSwitchCase="'totalBounties'">
+            {{ totalBounties | currency }}
+          </div>
+          <div *ngSwitchDefault></div>
+        </div>
+      </ng-template>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+
+  <tr
+    mat-footer-row
+    *matFooterRowDef="displayedTotalColumns; sticky: true"
+  ></tr>
+  <tr mat-footer-row *matFooterRowDef="displayedColumns; sticky: true"></tr>
+</table>

@@ -10,6 +10,9 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TournamentsTableModule } from './routes/tournaments-table/tournaments-table.module';
+
+const routeModules = [TournamentsTableModule];
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +20,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
+    ...routeModules,
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
     BrowserAnimationsModule,

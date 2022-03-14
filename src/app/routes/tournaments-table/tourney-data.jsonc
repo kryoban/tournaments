@@ -1,0 +1,902 @@
+[
+  {
+    "date": "13 Feb 22",
+    "tournamentName": "$1.5K Gtd",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "13 Feb 22",
+    "tournamentName": "$750 Gtd",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 6.83,
+    "bounties": 0.0
+  },
+  {
+    "date": "13 Feb 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "10 Feb 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "10 Feb 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.25
+  },
+  {
+    "date": "10 Feb 22",
+    "tournamentName": "Deep Stacks",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 45.1,
+    "bounties": 0.0
+  },
+  {
+    "date": "10 Feb 22",
+    "tournamentName": "PKO",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Feb 22",
+    "tournamentName": "PKO",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 18.81,
+    "bounties": 10.95
+  },
+  {
+    "date": "09 Feb 22",
+    "tournamentName": "PKO",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 6.01,
+    "bounties": 5.95
+  },
+  {
+    "date": "09 Feb 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Feb 22",
+    "tournamentName": "Deep Stacks",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 12.58,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Feb 22",
+    "tournamentName": "Big $4.40",
+    "buyin": 4.0,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 15.13,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Feb 22",
+    "tournamentName": "The Mini Marathon",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "$1K Gtd 350 Cap",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "Big $3.30",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "PKO",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 22.37,
+    "bounties": 35.71
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "$1K Gtd 600 Cap",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "07 Feb 22",
+    "tournamentName": "PKO",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "$1500 Gtd",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 9.19,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "Bounty Builder Turbo",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "PKO 30%",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 15.61,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "Hotter $3.30",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "Bigger $3.30",
+    "buyin": 3.3,
+    "rebuy": 3.3,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "Deep Stacks",
+    "buyin": 7.5,
+    "rebuy": 7.5,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "PKO Turbo",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 7.92,
+    "bounties": 3.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "PKO Turbo",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Feb 22",
+    "tournamentName": "PKO Deep Stacks",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.7
+  },
+  {
+    "date": "04 Feb 22",
+    "tournamentName": "Big $4.40",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Feb 22",
+    "tournamentName": "$750 Gtd 600 Cap",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Feb 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.5
+  },
+  {
+    "date": "04 Feb 22",
+    "tournamentName": "The Mini Marathon",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "03 Feb 22",
+    "tournamentName": "Hot $3.30",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 7.48,
+    "bounties": 0.0
+  },
+  {
+    "date": "02 Feb 22",
+    "tournamentName": "Bounty Builder ",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "01 Feb 22",
+    "tournamentName": "Bounty Builder ",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "30 Jan 22",
+    "tournamentName": "1.5K Gtd Turbo ",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "30 Jan 22",
+    "tournamentName": "$1K Gtd 350 Ca ",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "30 Jan 22",
+    "tournamentName": "Bigger $3.30 ",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "30 Jan 22",
+    "tournamentName": "Bounty Builder ",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 9.69,
+    "bounties": 5.1
+  },
+  {
+    "date": "29 Jan 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "29 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "29 Jan 22",
+    "tournamentName": "Big $4.40",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "29 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "29 Jan 22",
+    "tournamentName": "$3.30 Saturday Micro",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "19 Jan 22",
+    "tournamentName": "$7.50 8-Max Deep",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "19 Jan 22",
+    "tournamentName": "PKO",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "19 Jan 22",
+    "tournamentName": "Bounty Builder Turbo",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.5
+  },
+  {
+    "date": "19 Jan 22",
+    "tournamentName": "PKO",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "19 Jan 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "18 Jan 22",
+    "tournamentName": "$1K Gtd 350 Cap",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "18 Jan 22",
+    "tournamentName": "Hot $4.40",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "18 Jan 22",
+    "tournamentName": "Big $3.30",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "18 Jan 22",
+    "tournamentName": "PKO",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "18 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "18 Jan 22",
+    "tournamentName": "$1K Gtd 600 Cap",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "18 Jan 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 24.18,
+    "bounties": 0.0
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "Hot $2.20",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "Hot $4.40",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "$1K Gtd 600 Cap",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 8.65,
+    "bounties": 0.0
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "PKO",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.7
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "Big $3.30",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "17 Jan 22",
+    "tournamentName": "$1K Gtd 350 Cap",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Jan 22",
+    "tournamentName": "PKO",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Jan 22",
+    "tournamentName": "$1K Gtd Turbo",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Jan 22",
+    "tournamentName": "$1K Gtd 350 Cap",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Jan 22",
+    "tournamentName": "Bigger $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Jan 22",
+    "tournamentName": "$1K Gtd",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Jan 22",
+    "tournamentName": "$1K Gtd 600 Cap",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "09 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 4.4,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Jan 22",
+    "tournamentName": "Bounty Builder Turbo OD",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Jan 22",
+    "tournamentName": "$1K Gtd Turbo",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Jan 22",
+    "tournamentName": "Winter Series 103-M Sat Turbo",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "06 Jan 22",
+    "tournamentName": "$1K Gtd 350 Cap",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "Deep Stacks",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "Winter Series 67-L",
+    "buyin": 5.5,
+    "rebuy": 5.5,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "Big $3.30",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "PKO",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.7
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 5.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "$1K Gtd 600 Cap",
+    "buyin": 3.3,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "Big $7.50",
+    "buyin": 7.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "PKO",
+    "buyin": 5.5,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.25
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "$1K Gtd",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 0.0
+  },
+  {
+    "date": "04 Jan 22",
+    "tournamentName": "Bounty Builder",
+    "buyin": 2.2,
+    "rebuy": 0.0,
+    "addon": 0.0,
+    "prize": 0.0,
+    "bounties": 1.0
+  }
+]
+
+// 0.00	-5.50
+// 6.83	2.43
+// 0.00	-4.40
+// 0.00	-7.50
+// 1.25	-4.25
+// 45.10	37.60
+// 0.00	-5.50
+// 29.76	24.26
+// 11.96	4.46
+// 0.00	-7.50
+// 12.58	5.08
+// 15.13	11.13
+// 0.00	-5.50
+// 0.00	-5.50
+// 0.00	-4.40
+// 0.00	-3.30
+// 58.08	50.58
+// 0.00	-5.50
+// 0.00	-3.30
+// 0.00	-7.50
+// 0.00	-5.50
+// 0.00	-4.40
+// 9.19	3.69
+// 0.00	-3.30
+// 15.61	10.11
+// 0.00	-3.30
+// 0.00	-6.60
+// 0.00	-15.00
+// 10.92	6.52
+// 1.00	-1.20
+// 0.00	-3.30
+// 1.70	-5.80
+// 0.00	-4.40
+// 0.00	-2.20
+// 0.50	-1.70
+// 0.00	-5.50
+// 7.48	4.18
+// 0.00	-3.30
+// 0.00	-3.30
+// 0.00	-2.20
+// 0.00	-5.50
+// 0.00	-3.30
+// 14.79	7.29
+// 0.00	-7.50
+// 0.00	-2.20
+// 0.00	-4.40
+// 0.00	-7.50
+// 0.00	-3.30
+// 0.00	-7.50
+// 0.00	-5.50
+// 1.50	-1.80
+// 0.00	-7.50
+// 0.00	-7.50
+// 0.00	-5.50
+// 0.00	-4.40
+// 0.00	-3.30
+// 0.00	-7.50
+// 0.00	-5.50
+// 0.00	-3.30
+// 0.00	-7.50
+// 24.18	16.68
+// 0.00	-2.20
+// 0.00	-4.40
+// 8.65	5.35
+// 0.00	-5.50
+// 1.70	-5.80
+// 0.00	-3.30
+// 0.00	-5.50
+// 0.00	-5.50
+// 0.00	-2.20
+// 0.00	-5.50
+// 0.00	-7.50
+// 0.00	-2.20
+// 0.00	-3.30
+// 0.00	-5.50
+// 0.00	-4.40
+// 0.00	-3.30
+// 0.00	-2.20
+// 0.00	-5.50
+// 0.00	-7.50
+// 0.00	-11.00
+// 0.00	-3.30
+// 1.70	-5.80
+// 5.00	-0.50
+// 0.00	-3.30
+// 0.00	-7.50
+// 1.25	-4.25
+// 0.00	-2.20
+// 1.00	-1.20

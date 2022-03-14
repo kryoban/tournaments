@@ -1,0 +1,61 @@
+.tournament-table {
+  .header-cell,
+  .footer-cell {
+    background-color: #666;
+  }
+  .footer-cell {
+    font-weight: bold;
+    &-totals {
+      border-bottom: none;
+    }
+  }
+  .payout-column:not(.is-daily-summary):not(.is-monthly-summary) span {
+    background-color: rgb(26, 103, 103) !important;
+  }
+  .is-daily-summary {
+    background-color: rgb(160, 120, 23);
+  }
+  .is-monthly-summary {
+    background-color: rgb(115, 64, 164);
+  }
+  .profit-column,
+  .negative-profit-column,
+  .payout-column,
+  .is-daily-summary,
+  .is-monthly-summary {
+    font-weight: bold;
+  }
+  .profit-column span,
+  .negative-profit-column span,
+  .payout-column span {
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .profit-column span {
+    background-color: rgb(42, 103, 37);
+  }
+  .negative-profit-column span {
+    background-color: rgb(110, 35, 30);
+  }
+  td.mat-cell:not(:first-of-type).pl-10,
+  td.mat-footer-cell:not(:first-of-type).pl-10,
+  th.mat-header-cell:not(:first-of-type).pl-10 {
+    padding-left: 10px;
+  }
+  td.mat-cell:last-of-type,
+  td.mat-footer-cell:last-of-type,
+  th.mat-header-cell:last-of-type {
+    padding-right: 10px;
+  }
+  td.mat-cell:not(.is-daily-summary),
+  td.mat-cell:not(.is-monthly-summary) {
+    cursor: pointer;
+  }
+  .row-input {
+    border: 1px solid #666;
+    background-color: #d4d4d4;
+    border-radius: 4px;
+  }
+}
