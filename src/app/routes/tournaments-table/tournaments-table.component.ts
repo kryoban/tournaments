@@ -86,14 +86,22 @@ export class TournamentsTableComponent implements OnInit {
     return +this.totalBuyins + +this.totalRebuys + +this.totalAddons;
   }
 
+  get gamesCount() {
+    return this.dataSource.filter(this.notSummary).length;
+  }
+
+  get avgBuyin() {
+    return (this.totalBuyins / this.gamesCount).toFixed(2);
+  }
+
   constructor() {}
 
   ngOnInit(): void {}
 
   makeEditable(row: any) {
     if (!row.isDailySummary && !row.isMonthlySummary) {
+      this.dataSource.forEach((item) => ((item as any).editable = false));
       row.editable = !row.editable;
-      console.log(row);
     }
   }
 

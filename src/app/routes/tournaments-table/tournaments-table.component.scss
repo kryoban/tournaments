@@ -13,7 +13,7 @@
     background-color: rgb(26, 103, 103) !important;
   }
   .is-daily-summary {
-    background-color: rgb(160, 120, 23);
+    background-color: rgb(23, 82, 160);
   }
   .is-monthly-summary {
     background-color: rgb(115, 64, 164);
@@ -58,5 +58,7 @@
     background-color: #d4d4d4;
     border-radius: 4px;
     width: 90%;
+    height: 30px;
+    padding: 0 5px;
   }
 }

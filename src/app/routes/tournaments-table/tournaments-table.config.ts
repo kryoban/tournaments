@@ -5,8 +5,9 @@ export const TABLE_COLUMNS: TableColumn[] = [
     columnTitle: 'Date',
     columnProp: 'date',
     columnType: ColumnType.DATE,
+    width: 12,
   },
-  { columnTitle: 'Tournament', columnProp: 'tournamentName', width: 20 },
+  { columnTitle: 'Tournament', columnProp: 'tournamentName', width: 18 },
   {
     columnTitle: 'Buy-In',
     columnProp: 'buyin',
@@ -45,7 +46,8 @@ export const TABLE_COLUMNS: TableColumn[] = [
 ];
 
 export const TOTAL_COLUMNS: TableColumn[] = [
-  { columnTitle: null, columnProp: 'total', colspan: 2 },
+  { columnTitle: '', columnProp: 'spacer' },
+  { columnTitle: '', columnProp: 'gameCount' },
   { columnTitle: null, columnProp: 'totalBuyins' },
   { columnTitle: null, columnProp: 'totalRebuys' },
   { columnTitle: null, columnProp: 'totalAddons' },

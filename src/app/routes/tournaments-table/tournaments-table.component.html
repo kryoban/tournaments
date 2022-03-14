@@ -26,7 +26,8 @@
         element.isDailySummary ? 'is-daily-summary' : '',
         element.isMonthlySummary ? 'is-monthly-summary' : '',
         profitColumns.indexOf(column.columnProp) > -1 &&
-        element.data[column.columnProp] > 0
+        element.data[column.columnProp] > 0 &&
+        !element.editable
           ? 'profit-column'
           : element.data[column.columnProp] < 0 &&
             (element.isDailySummary || element.isMonthlySummary)
@@ -61,12 +62,17 @@
           <ng-container *ngSwitchCase="'date'">{{
             element.data[column.columnProp] | date: "dd MMM YY"
           }}</ng-container>
-          <ng-container *ngSwitchCase="'payout'">{{
-            element.data[column.columnProp]
-          }}</ng-container>
-          <ng-container *ngSwitchCase="'profit'">{{
-            element.data[column.columnProp]
-          }}</ng-container>
+          <ng-container *ngSwitchCase="'payout'">
+            <span class="d-flex justify-content-evenly">
+              <button mat-mini-fab color="accent" aria-label="Save">
+                <mat-icon>check</mat-icon>
+              </button>
+              <button mat-mini-fab color="primary" aria-label="Delete">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </span>
+          </ng-container>
+          <ng-container *ngSwitchCase="'profit'"> </ng-container>
           <ng-container *ngSwitchDefault>
             <input
               class="row-input"
@@ -86,12 +92,16 @@
         column.columnType === 'CURRENCY' ? 'text-center' : '',
         column.columnProp === 'profit' && totalProfits > 0
           ? 'profit-column'
-          : totalProfits < 0
+          : column.columnProp === 'profit' && totalProfits < 0
           ? 'negative-profit-column'
           : ''
       ]"
     >
       <div [ngSwitch]="column.columnProp">
+        <div *ngSwitchCase="'tournamentName'">
+          <span class="fw-normal">Avg. BI:</span>
+          <span class="ms-2">{{ avgBuyin }}</span>
+        </div>
         <div *ngSwitchCase="'rebuy'">{{ totalSpent | currency }}</div>
         <div *ngSwitchCase="'payout'">{{ totalPayouts | currency }}</div>
         <span *ngSwitchCase="'profit'">{{ totalProfits | currency }}</span>
@@ -107,7 +117,8 @@
     <td
       mat-footer-cell
       *matFooterCellDef
-      class="footer-cell footer-cell-totals pl-10 text-center"
+      class="footer-cell footer-cell-totals pl-10"
+      [ngClass]="column.columnProp !== 'gameCount' ? 'text-center' : ''"
       [attr.colspan]="column.colspan"
     >
       <div *ngIf="column.columnTitle; else elseBlock">
@@ -115,6 +126,10 @@
       </div>
       <ng-template #elseBlock>
         <div [ngSwitch]="column.columnProp">
+          <div *ngSwitchCase="'gameCount'">
+            <span class="fw-normal">Games:</span
+            ><span class="ms-2">{{ gamesCount }}</span>
+          </div>
           <div *ngSwitchCase="'totalBuyins'">{{ totalBuyins | currency }}</div>
           <div *ngSwitchCase="'totalRebuys'">{{ totalRebuys | currency }}</div>
           <div *ngSwitchCase="'totalAddons'">{{ totalAddons | currency }}</div>
